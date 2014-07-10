@@ -1,17 +1,17 @@
-There are four ways you can install Orchard. You can:
+راه اندازی اورچارد 
+در اینجا چهار روش برای نصب اورچارد وجود دارد. شما می توانید: 
 
-* Install it using the Microsoft Web Platform Installer.
-* Install it from Microsoft WebMatrix as shown in [Working with Orchard in WebMatrix](Working-with-Orchard-in-WebMatrix).
-* Download the Orchard [.zip file](http://orchard.codeplex.com/releases/view/90325) and install it as described in [Manually Installing Orchard Using a zip File](Manually-installing-Orchard-zip-file).
-* [Enlist](Setting-up-a-source-enlistment) in the Orchard source code and build Orchard from the command line or in Visual Studio.
+* نصب آن به وسیله Microsoft Web Platform.
+* نصب آن را از طریق Microsoft WebMatrix که در WebMatrix کار با اورچارد نشان داده شده است.
+*دانلود فایل فشرده اورچارد از سایت http://orchard.codeplex.com/releases/view/90325 و نصب دستی آن که در قسمت فایل های فشرده نصب دستی آن شرح داده شده است.
+* [Enlist](Setting-up-a-source-enlistment) در سورس کد اورچارد از طریق زدن command و یا در ویژال استدیو.
+در اینجا نحوه نصب با وب پلت فرم آموزش داده می شود.
+موارد مورد نیاز
+حداقل مواردی که برای اجرای اورچارد نیاز است به شرح زیر می باشد:
+* ASP.NET 4 
+*یک وب سرور مانند(IIS 7.x.  یا  IIS Express 8, 7.5)
+ A سرور وب مانند IIS اکسپرس 8، 7.5 و یا 7.x. IIS
 
-This topic shows how to install Orchard using the Microsoft Web Platform Installer.
-
-
-# Requirements
-The minimum requirements for running Orchard are the following:
-* ASP.NET 4
-* A web server such as IIS Express 8, 7.5 or IIS 7.x.
 
 When installing IIS, make sure you enable the ASP.NET IIS modules. Also make sure that you run Orchard
 in an integrated pipeline ASP.NET 4 application pool.
